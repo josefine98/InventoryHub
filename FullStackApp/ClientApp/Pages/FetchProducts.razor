@@ -1,0 +1,97 @@
+@* InventoryHub - Product List Page (ClientApp)
+   Activity 1: Copilot generated the initial HttpClient call and three-state UI
+               (loading / error / data) pattern, reducing manual scaffolding.
+   Activity 2: Copilot refactored GetFromJsonAsync to the explicit GetAsync +
+               EnsureSuccessStatusCode + JsonSerializer pattern, giving finer
+               control over HTTP errors vs. deserialization errors.
+   Activity 3: Copilot added the nested Category class and null-safe display
+               binding (@product.Category?.Name) to match the updated JSON shape.
+   Step 3:     Copilot introduced a static client-side cache to eliminate
+               redundant API calls on re-navigation, and added
+               PropertyNameCaseInsensitive so camelCase JSON from the server
+               deserializes correctly into PascalCase C# properties. *@
+
+@page "/fetchproducts"
+@inject HttpClient Http
+
+<h3>Product List</h3>
+
+@* Three-state UI: shows a loading message, an error, or the product list *@
+@if (errorMessage != null)
+{
+    <p style="color:red">@errorMessage</p>
+}
+else if (products == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <ul>
+        @foreach (var product in products)
+        {
+            <li>@product.Name - $@product.Price (@product.Category?.Name)</li>
+        }
+    </ul>
+}
+
+@code {
+    // Step 3: Static field survives Blazor component teardown — navigating away
+    // and back reuses this data instead of issuing a second HTTP request.
+    private static Product[]? _cache;
+
+    private Product[]? products;
+    private string? errorMessage;
+
+    // Step 3: Reuse options instance across renders (avoids per-call allocation).
+    private static readonly JsonSerializerOptions _jsonOptions = new()
+    {
+        // Step 3: ASP.NET Core serializes to camelCase by default; this option
+        // lets System.Text.Json match "name" → Name, "category" → Category, etc.
+        PropertyNameCaseInsensitive = true
+    };
+
+    // Activity 1 + 2: Copilot scaffolded OnInitializedAsync and later suggested
+    // splitting the call into Get / EnsureSuccessStatusCode / Deserialize steps
+    // so each failure mode (network, non-2xx status, bad JSON) is distinguishable.
+    protected override async Task OnInitializedAsync()
+    {
+        // Step 3: Return immediately if the static cache is already populated.
+        if (_cache != null)
+        {
+            products = _cache;
+            return;
+        }
+
+        try
+        {
+            var response = await Http.GetAsync("/api/productlist");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            products = JsonSerializer.Deserialize<Product[]>(json, _jsonOptions);
+            _cache = products;
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error: {ex.Message}";
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+
+    // Activity 3: Copilot suggested adding the Category property and a matching
+    // nested class so the JSON structure from the back-end deserializes cleanly.
+    public class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public double Price { get; set; }
+        public int Stock { get; set; }
+        public Category? Category { get; set; }
+    }
+
+    public class Category
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+    }
+}
