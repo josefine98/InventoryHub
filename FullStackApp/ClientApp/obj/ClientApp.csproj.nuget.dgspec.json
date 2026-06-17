@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joje\\Documents\\GitHub\\InventoryHub\\FullStackApp\\ClientApp\\ClientApp.csproj": {}
+    "C:\\Users\\joje\\Documents\\GitHub\\InventoryHub\\FullStackApp\\CLientApp\\ClientApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joje\\Documents\\GitHub\\InventoryHub\\FullStackApp\\ClientApp\\ClientApp.csproj": {
+    "C:\\Users\\joje\\Documents\\GitHub\\InventoryHub\\FullStackApp\\CLientApp\\ClientApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joje\\Documents\\GitHub\\InventoryHub\\FullStackApp\\ClientApp\\ClientApp.csproj",
+        "projectUniqueName": "C:\\Users\\joje\\Documents\\GitHub\\InventoryHub\\FullStackApp\\CLientApp\\ClientApp.csproj",
         "projectName": "ClientApp",
-        "projectPath": "C:\\Users\\joje\\Documents\\GitHub\\InventoryHub\\FullStackApp\\ClientApp\\ClientApp.csproj",
+        "projectPath": "C:\\Users\\joje\\Documents\\GitHub\\InventoryHub\\FullStackApp\\CLientApp\\ClientApp.csproj",
         "packagesPath": "C:\\Users\\joje\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joje\\Documents\\GitHub\\InventoryHub\\FullStackApp\\ClientApp\\obj\\",
+        "outputPath": "C:\\Users\\joje\\Documents\\GitHub\\InventoryHub\\FullStackApp\\CLientApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -44,16 +45,17 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.5, )",
+              "version": "[10.0.9, )",
               "autoReferenced": true
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
@@ -65,15 +67,10 @@
               "target": "Package",
               "version": "[10.0.9, )"
             },
-            "Microsoft.DotNet.HotReload.WebAssembly.Browser": {
-              "target": "Package",
-              "version": "[10.0.201, )",
-              "autoReferenced": true
-            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.5, )",
+              "version": "[10.0.9, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
@@ -105,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

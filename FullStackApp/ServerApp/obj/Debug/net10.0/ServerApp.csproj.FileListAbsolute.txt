@@ -31,3 +31,4 @@ C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ServerApp\obj\Debug\net
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ServerApp\obj\Debug\net10.0\ServerApp.pdb
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ServerApp\obj\Debug\net10.0\ServerApp.genruntimeconfig.cache
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ServerApp\obj\Debug\net10.0\ref\ServerApp.dll
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ServerApp\obj\Debug\net10.0\ServerApp.sourcelink.json

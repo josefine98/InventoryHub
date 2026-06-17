@@ -207,9 +207,6 @@ C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\ClientApp.kcdd9c5qop.wasm
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\ClientApp.lczs22bewj.pdb
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\dotnet.iz4nrz2x9n.js
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\blazor.webassembly.958z1vx7fr.js.gz
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.wp5b4xwrtz.wasm.gz
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.4payhwuyuh.wasm.gz
@@ -418,9 +415,6 @@ C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\ClientApp.kcdd9c5qop.wasm.gz
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\ClientApp.lczs22bewj.pdb.gz
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\wwwroot\_framework\dotnet.iz4nrz2x9n.js.gz
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\ClientApp.staticwebassets.runtime.json
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\ClientApp.staticwebassets.endpoints.json
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\bin\Debug\net10.0\ClientApp.dll
@@ -852,8 +846,6 @@ C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\ClientApp.genruntimeconfig.cache
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\blazor.build.boot-extension.json
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\dotnet.js
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\staticwebassets\htmlassetplaceholders\build\4txhis2txr.html
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\compressed\f9o902iofb-{0}-99zm1jdh75-99zm1jdh75.gz
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\compressed\k60wjsv2u0-{0}-nk9bgqz024-nk9bgqz024.gz
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\compressed\s99o6z5jip-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\compressed\pnv9ii1h6q-{0}-c2jlpeoesf-c2jlpeoesf.gz
@@ -1110,10 +1102,6 @@ C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\compressed\872eih9nmi-{0}-tjcz0u77k5-tjcz0u77k5.gz
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\compressed\bteeq1m9b6-{0}-tptq2av103-tptq2av103.gz
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\compressed\hhd0cmukc2-{0}-lfu7j35m59-lfu7j35m59.gz
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\compressed\e9r8smi3k0-{0}-kcdd9c5qop-kcdd9c5qop.gz
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\compressed\o1aobwrapl-{0}-lczs22bewj-lczs22bewj.gz
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\compressed\6g59rcugsa-{0}-iz4nrz2x9n-iz4nrz2x9n.gz
-C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\compressed\2h1wcuvvvh-{0}-z9a7qpamf7-z9a7qpamf7.gz
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\staticwebassets.development.json
@@ -1124,3 +1112,17 @@ C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\refint\ClientApp.dll
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\ClientApp.pdb
 C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\ClientApp\obj\Debug\net10.0\ref\ClientApp.dll
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\bin\Debug\net10.0\wwwroot\_framework\ClientApp.8p0bvrlsqw.wasm
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\bin\Debug\net10.0\wwwroot\_framework\ClientApp.yj703hwaft.pdb
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\bin\Debug\net10.0\wwwroot\_framework\dotnet.xh34r84xjz.js
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\bin\Debug\net10.0\wwwroot\_framework\ClientApp.8p0bvrlsqw.wasm.gz
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\bin\Debug\net10.0\wwwroot\_framework\ClientApp.yj703hwaft.pdb.gz
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\bin\Debug\net10.0\wwwroot\_framework\dotnet.xh34r84xjz.js.gz
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\obj\Debug\net10.0\hotreload\Microsoft.DotNet.HotReload.WebAssembly.Browser.lib.module.js
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\obj\Debug\net10.0\ClientApp.sourcelink.json
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\obj\Debug\net10.0\staticwebassets\htmlassetplaceholders\build\lwhav14blb.html
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\obj\Debug\net10.0\compressed\2vlyk3zl0y-{0}-99zm1jdh75-99zm1jdh75.gz
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\obj\Debug\net10.0\compressed\e9r8smi3k0-{0}-8p0bvrlsqw-8p0bvrlsqw.gz
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\obj\Debug\net10.0\compressed\o1aobwrapl-{0}-yj703hwaft-yj703hwaft.gz
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\obj\Debug\net10.0\compressed\6g59rcugsa-{0}-xh34r84xjz-xh34r84xjz.gz
+C:\Users\joje\Documents\GitHub\InventoryHub\FullStackApp\CLientApp\obj\Debug\net10.0\compressed\2h1wcuvvvh-{0}-1qc90ectq3-1qc90ectq3.gz
